@@ -1,0 +1,46 @@
+body{
+    background-color: darkgreen; 
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+/*establece atributos de estilos de una A para Href en el interior de un */
+nav  a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color:lightcoral;
+}
+
+
+
+/* definir estilos como clases*/
+.Titulo1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: darkred;
+}
+/*Genera un margen interno para cada objeto entre si*/
+.DivImagen{
+    padding: 15px;
+}
+
+.DivFormulario{
+    background-image: url("../img/gato.jpg");
+}
+
+/*Definir estilo por id*/
+#txtRut{
+    font-family: fantasy;
+    font-size: 15px;
+}
+
+
+#rbtEstadoCivil{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: blue;
+
+}
